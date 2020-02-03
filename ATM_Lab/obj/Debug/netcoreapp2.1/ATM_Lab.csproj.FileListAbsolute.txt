@@ -1,0 +1,11 @@
+/home/master/Documents/bootcamp/2020.02.03 ATM_Lab/ATM_Lab/obj/Debug/netcoreapp2.1/ATM_Lab.csprojAssemblyReference.cache
+/home/master/Documents/bootcamp/2020.02.03 ATM_Lab/ATM_Lab/obj/Debug/netcoreapp2.1/ATM_Lab.csproj.CoreCompileInputs.cache
+/home/master/Documents/bootcamp/2020.02.03 ATM_Lab/ATM_Lab/obj/Debug/netcoreapp2.1/ATM_Lab.AssemblyInfoInputs.cache
+/home/master/Documents/bootcamp/2020.02.03 ATM_Lab/ATM_Lab/obj/Debug/netcoreapp2.1/ATM_Lab.AssemblyInfo.cs
+/home/master/Documents/bootcamp/2020.02.03 ATM_Lab/ATM_Lab/bin/Debug/netcoreapp2.1/ATM_Lab.deps.json
+/home/master/Documents/bootcamp/2020.02.03 ATM_Lab/ATM_Lab/bin/Debug/netcoreapp2.1/ATM_Lab.runtimeconfig.json
+/home/master/Documents/bootcamp/2020.02.03 ATM_Lab/ATM_Lab/bin/Debug/netcoreapp2.1/ATM_Lab.runtimeconfig.dev.json
+/home/master/Documents/bootcamp/2020.02.03 ATM_Lab/ATM_Lab/bin/Debug/netcoreapp2.1/ATM_Lab.dll
+/home/master/Documents/bootcamp/2020.02.03 ATM_Lab/ATM_Lab/bin/Debug/netcoreapp2.1/ATM_Lab.pdb
+/home/master/Documents/bootcamp/2020.02.03 ATM_Lab/ATM_Lab/obj/Debug/netcoreapp2.1/ATM_Lab.dll
+/home/master/Documents/bootcamp/2020.02.03 ATM_Lab/ATM_Lab/obj/Debug/netcoreapp2.1/ATM_Lab.pdb
