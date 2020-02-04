@@ -25,28 +25,34 @@ namespace ATM_Lab
 
         public void Login()
         {
-            string name = Methods.GetUserInput("Input your login name:");
-            string password = Methods.GetUserInput("Input your password");
-            foreach(Account a in accounts)
+            bool complete = true;
+            while(complete)
             {
-                if(name == a.Name && password == a.Password && CurrentAccount == null)
+                string name = Methods.GetUserInput("Input your login name:");
+                string password = Methods.GetUserInput("Input your password");
+                foreach(Account a in accounts)
                 {
-                    CurrentAccount = a;
-                }
-                else if(name == a.Name && password == a.Password && CurrentAccount != null)
-                {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Sorry! Another account is currently active");
-                    Console.ResetColor();
-                    CurrentAccount = null;
-                    //return Login();
-                }
-                else
-                {
-                    Console.ForegroundColor = ConsoleColor.DarkYellow;
-                    Console.WriteLine("Sorry, this login info does not match our records");
-                    Console.ResetColor();
-                    //return Login();
+                    if(name == a.Name && password == a.Password && CurrentAccount == null)
+                    {
+                        CurrentAccount = a;
+                        complete = false;
+                    }
+                    //else if(name == a.Name && password == a.Password && CurrentAccount != null)
+                    //{
+                        //Console.ForegroundColor = ConsoleColor.Red;
+                        //Console.WriteLine("Sorry! Another account is currently active");
+                        //Console.ResetColor();
+                        //CurrentAccount = null;
+                        //complete = false;
+                        
+                    //}
+                    else
+                    {
+                        Console.ForegroundColor = ConsoleColor.DarkYellow;
+                        Console.WriteLine("Sorry, this login info does not match our records");
+                        Console.ResetColor();
+                        
+                    }
                 }
             }
         }
